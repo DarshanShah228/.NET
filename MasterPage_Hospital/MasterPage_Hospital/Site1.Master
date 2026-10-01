@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MasterPage_Hospital.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .header {
+            background-color: #f5f5f5;
+            padding: 20px 50px 10px 50px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+
+        .hospital-name {
+            font-size: 30px;
+            font-weight: bold;
+            color: #c62828;
+        }
+
+        .header-line {
+            border: 0;
+            border-top: 2px solid #c62828;
+            margin-top: 15px;
+        }
+
+        .content {
+            min-height: 400px;
+            padding: 30px 50px;
+        }
+
+        .footer {
+            background-color: #f5f5f5;
+            padding: 20px 50px;
+            text-align: center;
+            color: #555;
+        }
+
+        .footer-line {
+            border: 0;
+            border-top: 2px solid #c62828;
+            margin-bottom: 15px;
+        }
+
+        .footer p {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <!-- HEADER -->
+        <header class="header">
+            <div class="header-content">
+                <!-- Hospital Name -->
+                <div class="hospital-name">
+                    CITY MULTISPECIALITY HOSPITAL
+                </div>
+
+            </div>
+
+            <hr class="header-line" />
+        </header>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <hr class="footer-line" />
+
+            <p>
+                Department of Healthcare &amp; Emergency Services
+            </p>
+
+            <p>
+                Emergency Contact:
+                <strong>helpline@cityhospital.org</strong>
+            </p>
+
+        </footer>
+        </div>
+    </form>
+</body>
+</html>
