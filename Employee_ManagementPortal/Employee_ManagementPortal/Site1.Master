@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Employee_ManagementPortal.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Employee Mangement Portal</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1>TECHSOL SOLUTION PVT.LTD</h1>
+            <hr />
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" OnMenuItemClick="Menu1_MenuItemClick">
+                <Items>
+                    <asp:MenuItem Text="Register Employee" Value="Register Employee"></asp:MenuItem>
+                    <asp:MenuItem Text="Employee Profile" Value="Employee Profile"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <h3>Copyright Notice And HR Contact Email(hr@techsol.com)</h3>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
