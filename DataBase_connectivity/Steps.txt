@@ -1,0 +1,32 @@
+step1:
+	create a Database and table
+
+step2:
+	open visual studio and install the package of sql conn
+	Tools->NuGet Package Manger-> Package Manger Console
+step 3:
+	Install package 
+	Install-Package MySql.Data
+step 4:
+	open Web.config
+	Delete all the data writen in the file and write the code
+	"
+		<configuration>
+		<connectionStrings>
+			<add name="MySqlConn"
+				 connectionString="server=localhost;user id=root;password=;database=d35"
+				 providerName="MySql.Data.MySqlClient"/>
+		</connectionStrings>
+			<system.web>
+				<compilation debug="true" targetFramework="4.8"></compilation>
+			</system.web>
+		</configuration>
+	"
+
+step 5:
+	Go to Design page add GridView and Label
+	"
+		<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="true"></asp:GridView>
+	"
+Step 6:
+	
