@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\D35\\.net\\MVC\\User_Input\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27C9C203-CCBC-4894-8249-0D9867AC04DF}|User_Input\\User_Input.csproj|d:\\d35\\.net\\mvc\\user_input\\user_input\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{27C9C203-CCBC-4894-8249-0D9867AC04DF}|User_Input\\User_Input.csproj|solutionrelative:user_input\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27C9C203-CCBC-4894-8249-0D9867AC04DF}|User_Input\\User_Input.csproj|d:\\d35\\.net\\mvc\\user_input\\user_input\\models\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C9C203-CCBC-4894-8249-0D9867AC04DF}|User_Input\\User_Input.csproj|solutionrelative:user_input\\models\\userinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27C9C203-CCBC-4894-8249-0D9867AC04DF}|User_Input\\User_Input.csproj|d:\\d35\\.net\\mvc\\user_input\\user_input\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C9C203-CCBC-4894-8249-0D9867AC04DF}|User_Input\\User_Input.csproj|solutionrelative:user_input\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\D35\\.net\\MVC\\User_Input\\User_Input\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "User_Input\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\D35\\.net\\MVC\\User_Input\\User_Input\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "User_Input\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-10T06:53:09.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\D35\\.net\\MVC\\User_Input\\User_Input\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "User_Input\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\D35\\.net\\MVC\\User_Input\\User_Input\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "User_Input\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T06:51:48.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserInput.cs",
+              "DocumentMoniker": "D:\\D35\\.net\\MVC\\User_Input\\User_Input\\Models\\UserInput.cs",
+              "RelativeDocumentMoniker": "User_Input\\Models\\UserInput.cs",
+              "ToolTip": "D:\\D35\\.net\\MVC\\User_Input\\User_Input\\Models\\UserInput.cs",
+              "RelativeToolTip": "User_Input\\Models\\UserInput.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T06:50:20.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
